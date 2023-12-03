@@ -1,0 +1,7 @@
+@use '../../../variables' as *;
+.container {
+    @include flex-center;
+   
+    width:auto;
+    background-color:blue;
+}

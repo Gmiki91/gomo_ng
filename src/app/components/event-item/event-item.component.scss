@@ -1,0 +1,23 @@
+@use '../../../variables' as *;
+.container {
+    display: flex;
+    width: 500px;
+    background-color: $red;
+    padding:5px;
+}
+.title{
+    font-size: 26px;
+    width: 200px;
+}
+.time{
+    width: 150px;
+    @include flex-column;
+}
+.location{
+    width: 150px;
+    @include flex-column;
+}
+.join{
+    @include flex-column;
+    
+}

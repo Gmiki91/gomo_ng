@@ -1,0 +1,27 @@
+//Colors
+
+$red: #DC2820;
+$white: white;
+$black: black;
+
+$background-color: #F6F6F6;
+$teaser-background-color: $white;
+$preview-background-color: $black;
+
+
+// fonts
+$font: 'Open Sans';
+
+
+@mixin flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
